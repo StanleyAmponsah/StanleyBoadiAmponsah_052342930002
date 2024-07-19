@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stan's Coffee Shop</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Georgia:wght@400;700&family=Merriweather:wght@400;700&family=Open+Sans:wght@400;700&family=Lato:wght@400;700&family=Playfair+Display:wght@400;700&family=Pacifico&display=swap');
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f9f7f1;
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            background-color: white;
+            padding: 30px 0px;
+            text-align: center;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+
+
+        nav a {
+            font-size: 13px;
+            color: #253a0d;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: 550;
+            transition: font-weight 0.3s ease;
+        }
+
+        nav a:hover {
+            font-size: 15px;
+
+        }
+
+        nav a:active {
+            color: #a62e2e;
+        }
+
+
+        .logo {
+            float: left;
+            padding-left: 20px;
+         
+        }
+
+        .logo a {
+            text-decoration: none;
+            color: #253a0d;
+        }
+
+
+
+
+        .button a {
+            color: #5d8e28;
+            font-size: 16px;
+        }
+
+        .button a:hover {
+            font-size: 18px;
+        }
+
+        .order {
+            float: right;
+        }
+
+        .about-us-section {
+            font-family: 'Playfair Display', serif;
+            text-align: center;
+            margin-bottom: 10px 0;
+            background-color: #fff;
+            padding: 50px 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: auto;
+            border-radius: 10px;
+            max-width: 60%;
+        }
+
+        .about-us-section h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #5d8e28;
+        }
+
+        .about-us-section p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .about-us-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+        }
+
+
+
+        #location {
+            font-family: 'Playfair Display', serif;
+            background-color: #fff;
+            padding: 50px 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: auto;
+            border-radius: 10px;
+            max-width: 60%;
+        }
+
+        #location h1 {
+            color: #5d8e28;
+            font-size: 2em;
+
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            max-width: 100%;
+            height: auto;
+            bottom: 0;
+            padding: 20px;
+        }
+
+        .contact-section {
+            background-color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            border-radius: 10px;
+            max-width: 800px;
+        }
+
+        .contact-section h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #5d8e28;
+        }
+
+        .contact-section p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .contact-section form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact-section input,
+        .contact-section textarea {
+            width: 100%;
+            max-width: 600px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        .contact-section button {
+            padding: 10px 20px;
+            background-color: #5d8e28;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .contact-section button:hover {
+            background-color: #4a6a1e;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html" target="_parent" rel="noopener noreferrer">
+                LOGO
+            </a>
+        </div>
+        <nav>
+            <a href="index.html" target="_parent" rel="noopener noreferrer">HOME</a>
+            <a href="menu.html" target="_blank" rel="noopener noreferrer">OUR MENU</a>
+            <a href="#location">LOCATION</a>
+            <a href="about.html" target="_parent" rel="noopener noreferrer">ABOUT US</a>
+            <span class="button"> <a href="contact.html" target="_parent" rel="noopener noreferrer">CONTACT
+                    US</a></span>
+
+
+        </nav>
+    </header>
+
+    </div>
+
+    <section class="contact-section">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Whether you have a question, feedback, or just want to say hello, feel free to
+            reach out to us.</p>
+        <p>You can also visit us at our coffee shop or send us an email.</p>
+
+        <form action="submit_contact_form.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="tel" name="phone" placeholder="Your Phone Number">
+            <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>   
+        <br>
+        
+            <p>&copy; 2024 Stan's coffee shop. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>

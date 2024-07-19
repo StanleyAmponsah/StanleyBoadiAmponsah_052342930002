@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stan's Coffee Shop</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Georgia:wght@400;700&family=Merriweather:wght@400;700&family=Open+Sans:wght@400;700&family=Lato:wght@400;700&family=Playfair+Display:wght@400;700&family=Pacifico&display=swap');
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f9f7f1;
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            background-color: white;
+            padding: 30px 0px;
+            text-align: center;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+
+
+        nav a {
+            font-size: 13px;
+            color: #090e04;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: 550;
+            transition: font-weight 0.3s ease;
+        }
+
+        nav a:hover {
+            font-size: 15px;
+
+        }
+
+        nav a:active {
+            color: #a62e2e;
+        }
+
+
+        .logo {
+            float: left;
+            padding-left: 20px;
+        }
+
+
+        .logo a {
+            text-decoration: none;
+            color: #253a0d;
+        }
+
+
+
+        .button a {
+            color: #5d8e28;
+            font-size: 16px;
+        }
+
+        .button a:hover {
+            font-size: 18px;
+        }
+
+        .new {
+            margin-top: 40px;
+            margin-left: 60px;
+            margin-right: 60px;
+            background-image: url('./Images/4.jfif');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+
+        .new img {
+            width: auto;
+            background-position: center;
+            height: 500px;
+            background-repeat: no-repeat;
+        }
+
+
+        .fc {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 0px 90px;
+        }
+
+
+        .coffee {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            width: 25%;
+            text-align: center;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .coffee img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .text h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3em;
+            text-align: center;
+            margin-bottom: 40px;
+            color: #f8b400;
+        }
+
+        .text-pastries {
+            font-family: 'Playfair Display', serif;
+            font-size: 4em;
+            text-align: center;
+            color: #f8b400;
+        }
+
+        .text p,
+        address {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.2em;
+            text-align: center;
+            margin-bottom: 10px 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            width: 100%;
+            height: 90px;
+            bottom: 0;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html" target="_parent" rel="noopener noreferrer">
+                LOGO
+            </a>
+        </div>
+        <nav>
+            <span class="mid">
+                <a href="index.html" target="_parent" rel="noopener noreferrer">HOME</a>
+                <span class="button"><a href="menu.html">OUR MENU</a></span>
+                <a href="#location">LOCATION</a>
+                <a href="about.html" target="_blank" rel="noopener noreferrer">ABOUT US</a>
+                <a href="contact.html" target="#" rel="noopener noreferrer">CONTACT US</a>
+
+            </span>
+
+        </nav>
+    </header>
+    <div class="new">
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="text">
+        <h1>Our Menu</h1>
+        <p>At Stan's coffee shop, we pride ourselves on offering a wide variety of freshly brewed coffee and
+            delicious treats.<br>
+            Whether you're looking for a quick caffeine fix of a leisurely brunch , we have something for
+            everyone.</p>
+
+    </div>
+    <br>
+    <br>
+    <div class="fc">
+        <div class="coffee">
+            <img src="./Images/abc.webp" alt="Latte">
+            <p>Latte. Price:GHc20 <a href="#"></a></p>
+        </div>
+        <div class="coffee">
+            <img src="./Images/abc.jpeg" alt="Black Coffee">
+            <p>Black Coffee. Price: Ghc15</p>
+        </div>
+        <div class="coffee">
+            <img src="./Images/p6.jpeg" alt="Espresso">
+            <p>Espresso. Price: Ghc10</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="fc">
+        <div class="coffee">
+            <img src="./Images/p10.jpg" alt="Latte">
+            <p>Americano. Price:GHc20 <a href="#"></a></p>
+        </div>
+        <div class="coffee">
+            <img src="./Images/p8.webp" alt="Black Coffee">
+            <p>Cappuccino. Price: Ghc15</p>
+        </div>
+        <div class="coffee">
+            <img src="./Images/p9.jpg" alt="Espresso">
+            <p>Mocha. Price: Ghc10</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <h1 class="text-pastries">Pastries</h1>
+    <br>
+
+    <div class="fc">
+        <div class="coffee">
+            <img src="./Images/p11.jpeg" alt="Latte">
+            <p>Cake. Price:GHc20 <a href="#"></a></p>
+        </div>
+        <div class="coffee">
+            <img src="./Images/p11.jpg" alt="Black Coffee">
+            <p>Pie. Price: Ghc15</p>
+        </div>
+        <div class="coffee">
+            <img src="./Images/p13.jpg
+            " alt="Cupcake image">
+            <p>Cupcake. Price: Ghc10</p>
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="location" class="text">
+        <h1>Our Location</h1>
+        <p>Come visit us at:</p>
+        <address>
+            123 Coffee Street,<br>
+            Kumasi, ks 56789
+        </address>
+        <p>We are open from 7:00 AM to 9:00 PM every day.</p>
+    </section>
+    <br>
+    <br>
+
+
+
+
+    <footer>   
+        <br>
+        
+            <p>&copy; 2024 Stan's coffee shop. All rights reserved.</p>
+    </footer>
+
+
+</body>
+
+</html>
