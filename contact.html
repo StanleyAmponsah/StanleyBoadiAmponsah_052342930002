@@ -50,7 +50,7 @@
         .logo {
             float: left;
             padding-left: 20px;
-         
+
         }
 
         .logo a {
@@ -59,6 +59,9 @@
         }
 
 
+        .body {
+            background-color: #b4b4aa5b;
+        }
 
 
         .button a {
@@ -214,28 +217,44 @@
 
         </nav>
     </header>
+    <div class="body">
+        <br>
+        <br>
+
+        <section class="contact-section">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you! Whether you have a question, feedback, or just want to say hello, feel free
+                to
+                reach out to us.</p>
+            <p>You can also visit us at our coffee shop or send us an email.</p>
+
+            <form action="submit_contact_form.php" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="tel" name="phone" placeholder="Your Phone Number">
+                <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <section id="location" class="text">
+            <h1>Our Location</h1>
+            <p>Come visit us at:</p>
+            <address>
+                123 Coffee Street,<br>
+                Kumasi, ks 56789
+            </address>
+            <p>We are open from 7:00 AM to 9:00 PM every day.</p>
+        </section>
+        <br>
+        <br>
+        <br>
 
     </div>
-
-    <section class="contact-section">
-        <h1>Contact Us</h1>
-        <p>We'd love to hear from you! Whether you have a question, feedback, or just want to say hello, feel free to
-            reach out to us.</p>
-        <p>You can also visit us at our coffee shop or send us an email.</p>
-
-        <form action="submit_contact_form.php" method="post">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <input type="tel" name="phone" placeholder="Your Phone Number">
-            <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-
-    <footer>   
+    <footer>
         <br>
-        
-            <p>&copy; 2024 Stan's coffee shop. All rights reserved.</p>
+
+        <p>&copy; 2024 Stan's coffee shop. All rights reserved.</p>
     </footer>
 
 </body>
